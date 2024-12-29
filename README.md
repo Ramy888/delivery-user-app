@@ -1,16 +1,10 @@
 # eb3at
 
-A new Flutter project.
+This Flutter-based mobile app provides a seamless interface for users to request products for delivery from a pickup point to a drop-off point. The app is designed to enhance the delivery experience with the following features:
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Google Maps Integration: Users can select pickup and drop-off points directly on an interactive map and track the delivery person’s real-time location as they move between the points.
+Payment Options: Users can pay for products and delivery services using cash or credit/debit cards.
+Real-Time Database: Powered by Firebase Firestore, ensuring efficient, real-time updates for delivery tracking and communication.
+Cloud Storage: Firebase Cloud Storage is used for uploading and storing images, such as profile pictures, securely and efficiently.
+Live Chat: A built-in real-time chat system allows users to communicate directly with the delivery person for any inquiries or updates.
+This app combines intuitive design and robust functionality, offering a reliable and engaging delivery experience. Ideal for integration into any delivery service ecosystem.
