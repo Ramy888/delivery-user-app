@@ -7,8 +7,7 @@ import '../Models/suggestion_model.dart';
 
 class PlaceApiProvider {
   static String sessionToken = '';
-  // static const apiKey = 'AIzaSyCGA0CAQ2Z_LvRGT34jxE1Ob3wZJ-BcGUc';
-  static const apiKey = 'AIzaSyCOPYHD2q4Q0eNvP9xUjM9XTREJcpBu-lY';
+  static const apiKey = '';
 
   Future<List<Suggestion>> fetchSuggestions(BuildContext context, String query) async {
     List<Suggestion> suggestions = [];
