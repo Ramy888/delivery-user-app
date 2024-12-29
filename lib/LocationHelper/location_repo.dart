@@ -6,7 +6,7 @@ import 'dart:convert';
 import '../Models/model_location.dart';
 
 class LocationService {
-  static const String _googleApiKey = 'AIzaSyCOPYHD2q4Q0eNvP9xUjM9XTREJcpBu-lY'; // Replace with your API key
+  static const String _googleApiKey = ''; // Replace with your API key
 
   // Initialize location settings
   final LocationSettings locationSettings = const LocationSettings(
