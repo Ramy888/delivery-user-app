@@ -182,7 +182,7 @@ class _TrackmapScreenState extends State<TrackmapScreen>
 
     try {
       PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(
-        googleApiKey: 'API_KEY',
+        googleApiKey: '',
         request: PolylineRequest(
           origin: _isPickedUp
               ? PointLatLng(
@@ -231,7 +231,7 @@ class _TrackmapScreenState extends State<TrackmapScreen>
           'origins=${currentLocation.latitude},${currentLocation.longitude}&'
           'destinations=${destination.latitude},${destination.longitude}&'
           'mode=driving&'
-          'key=API_KEY';
+          'key=';
 
       final response = await http.get(Uri.parse(url));
 
