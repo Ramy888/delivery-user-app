@@ -11,7 +11,8 @@ This app combines intuitive design and robust functionality, offering a reliable
 
 
 
-#Instructions to run the project
+# Instructions to run the project
+
 Create Firebase project and add it to your Flutter app ( Follow https://firebase.google.com/docs/flutter/setup instructions).
 
 Configure an API project with the Google Maps Platform and enable Maps SDK for Android/iOS (FREE) to be able to open the map. Also, enable Directions/ Geolocation/Places APIs to enable other map features as search and live tracking (You have to create a billing account to use these APIs).
